@@ -10,7 +10,7 @@ The solution uses following components to demonstrate the functionality required
 Prerequisites
 =============
 You will need access to Jenkins instance installed @ http://ec2-13-126-212-110.ap-south-1.compute.amazonaws.com:9090 to review/manage the CI/CD pipeline.
-Anonymous users will have permissions to manage and execute jobs and to configure SCM. If still required, a user name and password can be shared with you in an email upon request.
+Guest registration can be done to get access to manage, execute jobs and configure SCM (anonymously). If still required, a user name and password can be shared with you in an email upon request.
 
 Deployment & Running Instructions
 =================================
