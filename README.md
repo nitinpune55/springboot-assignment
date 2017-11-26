@@ -10,7 +10,7 @@ The solution uses following components to demonstrate the functionality required
 Prerequisites
 =============
 You will need access to Jenkins instance installed @ http://ec2-13-126-212-110.ap-south-1.compute.amazonaws.com:9090 to review/manage the CI/CD pipeline.
-User name and password will be shared with you in an email. 
+Anonymous users will have permissions to manage and execute jobs and to configure SCM. If still required, a user name and password can be shared with you in an email upon request.
 
 Deployment & Running Instructions
 =================================
@@ -27,6 +27,8 @@ Following that, Jenkins will stop and start the system service `myapp`, which is
 - [Health-check Endpoint](http://ec2-13-126-212-110.ap-south-1.compute.amazonaws.com:8080/health)
 - [Site Metrics](http://ec2-13-126-212-110.ap-south-1.compute.amazonaws.com:8080/metrics)
 - [HTTP requests](http://ec2-13-126-212-110.ap-south-1.compute.amazonaws.com:8080/trace)
+
+Please add your email address under Post-build Actions section of the project to receive e-mail notifications about job execution.
 
 Author
 ======
